@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'core/theme/app_theme.dart';
+import 'features/home/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,7 +22,7 @@ class SudokuAIApp extends StatelessWidget {
       title: "Sudoku AI Solver",
       debugShowCheckedModeBanner: false,
       theme: AppTheme.dark,
-      home: const Scaffold(body: Center(child: Text('Hello Sudoku'))),
+      home: const HomeScreen(),
     );
   }
 }

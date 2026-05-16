@@ -54,6 +54,12 @@ abstract class AppTextStyles {
     letterSpacing: 0.5,
   );
 
+  static TextStyle get domainHint => GoogleFonts.inter(
+    fontSize: 7,
+    fontWeight: FontWeight.w400,
+    color: AppColors.textSecondary,
+  );
+
   // Solver log — monospaced so columns align
   static TextStyle get log =>
       GoogleFonts.jetBrainsMono(fontSize: 11, color: AppColors.textSecondary);

@@ -28,4 +28,8 @@ abstract class AppColors {
   static const Color textPrimary = Color(0xFFE6EDF3);
   static const Color textSecondary = Color(0xFF8B949E);
   static const Color textDisabled = Color(0xFF484F58);
+
+  static const Color cellPrefilled = Color(0xFF0D1117);
+
+  static const Color warning = Color(0xFFD29922);
 }
